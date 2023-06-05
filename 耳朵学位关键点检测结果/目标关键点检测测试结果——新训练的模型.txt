@@ -1,0 +1,15 @@
+DONE (t=0.00s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] =  0.407
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] =  0.946
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] =  0.172
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] =  0.407
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] =  0.462
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] =  0.952
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] =  0.333
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] =  0.462
+06/05 10:42:41 - mmengine - INFO - Evaluating PCKAccuracy (normalized by ``"bbox_size"``)...
+06/05 10:42:41 - mmengine - INFO - Evaluating AUC...
+06/05 10:42:41 - mmengine - INFO - Evaluating NME...
+06/05 10:42:41 - mmengine - INFO - Epoch(test) [3/3]    coco/AP: 0.407430  coco/AP .5: 0.946390  coco/AP .75: 0.171809  coco/AP (M): -1.000000  coco/AP (L): 0.407430  coco/AR: 0.461905  coco/AR .5: 0.952381  coco/AR .75: 0.333333  coco/AR (M): -1.000000  coco/AR (L): 0.461905  PCK: 0.841270  AUC: 0.037585  NME: 0.069345  data_time: 3.112779  time: 4.153162
