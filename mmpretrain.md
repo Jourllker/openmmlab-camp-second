@@ -48,3 +48,9 @@ accuracy/top1: 58.8571  data_time: 0.0021  time: 0.1130
   'pred_score': 0.8605495691299438,
   'pred_class': '火龙果'}]
 ```
+
+
+## 模型和数据链接：
+[link](https://pan.baidu.com/s/1x8OlO5HDMGNQlkGeY5QOlw) \
+提取码：1qjc
+
