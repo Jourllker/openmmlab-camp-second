@@ -5,6 +5,8 @@ Epoch(test) [13/13]  coco/bbox_mAP: 0.7320  coco/bbox_mAP_50: 0.8490  coco/bbox_
 
 训练得到的结果见work_dir文件夹，配置文件为[hw_balloon.py]('hw_balloon.py')
 
+配置文件和数据处理部分我不熟悉，所以参照这位同学的[work](https://github.com/CrabBoss-lab/openmmlab-Camp/tree/master/03-mmdetection-task)
+
 
 # 检查数据集的结果
 <img src="check_dataset.png" />
